@@ -1,0 +1,57 @@
+.container {
+  display: flex; /* or inline-flex */
+  margin-left: 2%;
+}
+
+.containerHide {
+  display: flex; /* or inline-flex */
+  margin-left: 2%;
+  opacity: 0.5;
+}
+.space {
+  margin-right: 1%;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 5%;
+}
+.kp-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: baseline;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.selection-criterias {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  justify-content: stretch;
+  align-items: stretch;
+  margin-left: 2.5%;
+}
+.hide {
+  opacity: 0.5;
+}
+.form-control {
+  width: 50px;
+}
+.dateTimeError {
+  font-size: small;
+  color: red;
+}
